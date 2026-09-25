@@ -127,8 +127,6 @@ h2 {
   color: var(--acento);
 }
 
-.apresentacao { max-width: 38ch; margin-top: 18px; color: var(--tinta-suave); }
-
 .abertura .botao { margin-top: 32px; }
 
 /* Três fotos em escada, como uma tira de contato */
@@ -180,7 +178,6 @@ h2 {
   font-size: 1.7rem;
 }
 
-.ensaios-lista p { max-width: 32ch; margin-top: 8px; color: var(--tinta-suave); }
 
 /* ---------- Galeria ---------- */
 .galeria-grade {
@@ -212,7 +209,8 @@ h2 {
 .sobre-foto img { aspect-ratio: 1; object-fit: cover; border-radius: 50%; }
 
 .sobre-texto { margin-top: 28px; }
-.sobre-texto p { max-width: 44ch; margin: 20px auto 0; font-size: 1.15rem; color: var(--tinta-suave); }
+.sobre-texto h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.bio { margin-top: 16px; font-size: 1.1rem; color: var(--tinta-suave); }
 
 .link-instagram {
   display: inline-block;
@@ -231,7 +229,6 @@ h2 {
 }
 
 .contato h2 { max-width: 16ch; margin: 0 auto; font-size: clamp(2.4rem, 6vw, 4.6rem); }
-.contato p { max-width: 44ch; margin: 20px auto 0; color: color-mix(in srgb, var(--papel) 78%, var(--tinta)); }
 .contato .botao { margin-top: 36px; }
 
 .rodape {
